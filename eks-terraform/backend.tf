@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "bucket-avanthi"
+    bucket = "bucket-avanthi-1"
     key    = "eks/terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 
   required_version = ">= 1.6.3"
